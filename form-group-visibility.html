@@ -1,0 +1,5 @@
+<template name="afFormGroupVisibility">
+    {{#if visible}}
+        {{> Template.dynamic template=getTemplateName data=innerContext}}
+    {{/if}}
+</template>
